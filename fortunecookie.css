@@ -1,0 +1,16 @@
+.main {
+  background-color: blue;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.fortune {
+  width: 200px;
+  height: 200px;
+  background-image: url('http://www.wellnesscoach.com/wp-content/uploads/2008/04/fortune-cookie.jpg');
+  background-size: cover;
+  background-position: center center;
+}
