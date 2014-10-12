@@ -13,4 +13,14 @@
   background-image: url('http://www.wellnesscoach.com/wp-content/uploads/2008/04/fortune-cookie.jpg');
   background-size: cover;
   background-position: center center;
+  margin: 0 auto;
+}
+
+.fortune {
+  background-color: #96a89b;
+  min-height: 1em;
+  width: 200px;
+  margin: 0 auto;
+  font-family: Rock Salt;
+  text-align: center;
 }
