@@ -1,5 +1,7 @@
 .main {
-  background-color: blue;
+  background-image: url("http://4.bp.blogspot.com/-qOIKARGCAj0/UR6AlXeZcTI/AAAAAAAAArU/a9Unmn_Y9GU/s1600/for.JPG");
+  background-size: cover;
+  background-position: center center;
   position: absolute;
   height: 100%;
   width: 100%;
@@ -7,20 +9,33 @@
   left: 0;
 }
 
-.cookie {
-  width: 200px;
-  height: 200px;
-  background-image: url('http://www.wellnesscoach.com/wp-content/uploads/2008/04/fortune-cookie.jpg');
-  background-size: cover;
-  background-position: center center;
-  margin: 0 auto;
-}
-
 .fortune {
   background-color: #96a89b;
   min-height: 1em;
-  width: 200px;
-  margin: 0 auto;
+  width: 600px;
+  position: absolute;
+  left: 50%;
+  margin-left: -300px;
+  top: 50%;
+  margin-top: -0.5em;
   font-family: Rock Salt;
   text-align: center;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  box-shadow: 0 0 50px black;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+@media (max-width: 700px) {
+  .fortune {
+    width: 400px;
+    margin-left: -200px;
+  }
 }

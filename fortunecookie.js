@@ -84,6 +84,12 @@
 
   FortuneCookie.View.prototype.render = function (fortune) {
     this.el.innerText = fortune;
+    this.recenter();
+  }
+
+  FortuneCookie.View.prototype.recenter = function () {
+    var height = this.el.clientHeight;
+    this.el.style.marginTop = -Math.floor(height / 2) + 'px';
   }
 
   var cookie = new FortuneCookie(fortuneDiv);
